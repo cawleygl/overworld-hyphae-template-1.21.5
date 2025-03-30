@@ -378,6 +378,15 @@ public class ModRegistries {
     }
 
     public static void registerTrades() {
+        TradeOfferHelper.registerWanderingTraderOffers(wanderingTraderOffersBuilder -> {
+            wanderingTraderOffersBuilder.addOffersToPool(TradeOfferHelper.WanderingTraderOffersBuilder.SELL_SPECIAL_ITEMS_POOL,
+                    (entity, random) -> new TradeOffer(
+                            new TradedItem(Items.EMERALD, 1),
+                            new ItemStack(ModBlocks.MUSHROOM_STEM.asItem(), 8),
+                            4,  1, 1)
+            );
+        });
+
         TradeOfferHelper.registerVillagerOffers(VillagerProfession.FISHERMAN, 5,
                 factories -> {
                     factories.add((entity, random) -> new TradeOffer(
