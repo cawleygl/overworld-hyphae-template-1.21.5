@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:block/cube_all",
+  "textures": {
+    "all": "overworld-hyphae:block/orange_mushroom_planks"
+  }
+}

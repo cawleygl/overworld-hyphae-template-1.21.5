@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "overworld-hyphae:block/mushroom_slab"
+    },
+    "type=double": {
+      "model": "overworld-hyphae:block/mushroom_planks"
+    },
+    "type=top": {
+      "model": "overworld-hyphae:block/mushroom_slab_top"
+    }
+  }
+}

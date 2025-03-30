@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:block/fence_post",
+  "textures": {
+    "texture": "overworld-hyphae:block/mushroom_planks"
+  }
+}

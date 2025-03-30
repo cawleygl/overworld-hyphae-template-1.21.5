@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:block/fence_side",
+  "textures": {
+    "texture": "overworld-hyphae:block/magenta_mushroom_planks"
+  }
+}

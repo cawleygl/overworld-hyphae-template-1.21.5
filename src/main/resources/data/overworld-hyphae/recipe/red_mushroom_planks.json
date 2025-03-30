@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "building",
+  "group": "planks",
+  "ingredients": [
+    "#overworld-hyphae:red_mushroom_stems"
+  ],
+  "result": {
+    "count": 4,
+    "id": "overworld-hyphae:red_mushroom_planks"
+  }
+}

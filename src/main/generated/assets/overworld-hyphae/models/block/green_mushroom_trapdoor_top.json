@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:block/template_trapdoor_top",
+  "textures": {
+    "texture": "overworld-hyphae:block/green_mushroom_trapdoor"
+  }
+}

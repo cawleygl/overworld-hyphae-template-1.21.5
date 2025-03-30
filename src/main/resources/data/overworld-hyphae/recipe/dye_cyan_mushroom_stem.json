@@ -1,0 +1,31 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "building",
+  "group": "mushroom_stem",
+  "ingredients": [
+    "minecraft:cyan_dye",
+    [
+      "overworld-hyphae:mushroom_stem",
+      "overworld-hyphae:white_mushroom_stem",
+      "overworld-hyphae:orange_mushroom_stem",
+      "overworld-hyphae:magenta_mushroom_stem",
+      "overworld-hyphae:light_blue_mushroom_stem",
+      "overworld-hyphae:yellow_mushroom_stem",
+      "overworld-hyphae:lime_mushroom_stem",
+      "overworld-hyphae:pink_mushroom_stem",
+      "overworld-hyphae:gray_mushroom_stem",
+      "overworld-hyphae:light_gray_mushroom_stem",
+      "overworld-hyphae:cyan_mushroom_stem",
+      "overworld-hyphae:purple_mushroom_stem",
+      "overworld-hyphae:blue_mushroom_stem",
+      "overworld-hyphae:brown_mushroom_stem",
+      "overworld-hyphae:green_mushroom_stem",
+      "overworld-hyphae:red_mushroom_stem",
+      "overworld-hyphae:black_mushroom_stem"
+    ]
+  ],
+  "result": {
+    "count": 1,
+    "id": "overworld-hyphae:cyan_mushroom_stem"
+  }
+}

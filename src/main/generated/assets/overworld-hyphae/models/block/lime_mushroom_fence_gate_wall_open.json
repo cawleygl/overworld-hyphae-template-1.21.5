@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:block/template_fence_gate_wall_open",
+  "textures": {
+    "texture": "overworld-hyphae:block/lime_mushroom_planks"
+  }
+}

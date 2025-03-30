@@ -1,0 +1,7 @@
+{
+  "parent": "minecraft:block/cube_column",
+  "textures": {
+    "end": "overworld-hyphae:block/stripped_black_mushroom_stem",
+    "side": "overworld-hyphae:block/stripped_black_mushroom_stem"
+  }
+}

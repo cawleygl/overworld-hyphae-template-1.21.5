@@ -1,0 +1,8 @@
+{
+  "parent": "minecraft:block/slab_top",
+  "textures": {
+    "bottom": "overworld-hyphae:block/red_mushroom_planks",
+    "side": "overworld-hyphae:block/red_mushroom_planks",
+    "top": "overworld-hyphae:block/red_mushroom_planks"
+  }
+}

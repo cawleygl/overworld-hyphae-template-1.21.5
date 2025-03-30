@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:block/button_inventory",
+  "textures": {
+    "texture": "overworld-hyphae:block/purple_mushroom_planks"
+  }
+}

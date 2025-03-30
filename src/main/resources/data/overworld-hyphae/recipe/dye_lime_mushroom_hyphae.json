@@ -1,0 +1,31 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "building",
+  "group": "mushroom_hyphae",
+  "ingredients": [
+    "minecraft:lime_dye",
+    [
+      "overworld-hyphae:mushroom_hyphae",
+      "overworld-hyphae:white_mushroom_hyphae",
+      "overworld-hyphae:orange_mushroom_hyphae",
+      "overworld-hyphae:magenta_mushroom_hyphae",
+      "overworld-hyphae:light_blue_mushroom_hyphae",
+      "overworld-hyphae:yellow_mushroom_hyphae",
+      "overworld-hyphae:lime_mushroom_hyphae",
+      "overworld-hyphae:pink_mushroom_hyphae",
+      "overworld-hyphae:gray_mushroom_hyphae",
+      "overworld-hyphae:light_gray_mushroom_hyphae",
+      "overworld-hyphae:cyan_mushroom_hyphae",
+      "overworld-hyphae:purple_mushroom_hyphae",
+      "overworld-hyphae:blue_mushroom_hyphae",
+      "overworld-hyphae:brown_mushroom_hyphae",
+      "overworld-hyphae:green_mushroom_hyphae",
+      "overworld-hyphae:red_mushroom_hyphae",
+      "overworld-hyphae:black_mushroom_hyphae"
+    ]
+  ],
+  "result": {
+    "count": 1,
+    "id": "overworld-hyphae:lime_mushroom_hyphae"
+  }
+}

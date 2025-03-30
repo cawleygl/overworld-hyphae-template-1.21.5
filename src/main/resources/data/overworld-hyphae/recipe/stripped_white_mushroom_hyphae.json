@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "building",
+  "group": "bark",
+  "key": {
+    "#": "overworld-hyphae:stripped_white_mushroom_stem"
+  },
+  "pattern": [
+    "##",
+    "##"
+  ],
+  "result": {
+    "count": 3,
+    "id": "overworld-hyphae:stripped_white_mushroom_hyphae"
+  }
+}

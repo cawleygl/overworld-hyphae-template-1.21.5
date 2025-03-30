@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:block/pressure_plate_up",
+  "textures": {
+    "texture": "overworld-hyphae:block/light_blue_mushroom_planks"
+  }
+}

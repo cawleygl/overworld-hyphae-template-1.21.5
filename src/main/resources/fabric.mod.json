@@ -1,0 +1,40 @@
+{
+	"schemaVersion": 1,
+	"id": "overworld-hyphae",
+	"version": "1.1.0",
+	"name": "Overworld Hyphae Mod (Dyeable Wood)",
+	"description": "This mod changes the Mushroom Stem block into a dyeable wood block! It's weaker than other wood types and is compostable and not burnable.",
+	"authors": [
+		"BlueSteel42"
+	],
+	"contact": {
+		"homepage": "https://fabricmc.net/",
+		"sources": "https://github.com/FabricMC/fabric-example-mod"
+	},
+	"license": "CC0-1.0",
+	"icon": "assets/overworld-hyphae/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"bluesteel42.overworldhyphae.OverworldHyphae"
+		],
+		"client": [
+			"bluesteel42.overworldhyphae.OverworldHyphaeClient"
+		],
+		"fabric-datagen": [
+			"bluesteel42.overworldhyphae.OverworldHyphaeDataGenerator"
+		]
+	},
+	"mixins": [
+		"overworld-hyphae.mixins.json"
+	],
+	"depends": {
+		"fabricloader": ">=0.16.10",
+		"minecraft": "~1.21.5",
+		"java": ">=21",
+		"fabric-api": "*"
+	},
+	"suggests": {
+		"another-mod": "*"
+	}
+}

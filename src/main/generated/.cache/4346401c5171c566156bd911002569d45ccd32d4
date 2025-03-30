@@ -1,0 +1,16 @@
+// 1.21.5	-999999999-01-01T00:00:00	Overworld Hyphae Mod (Dyeable Wood)/Tags for minecraft:block
+4e76f6602f001f4366cb0c8a2484a5d4d0415df3 data/minecraft/tags/block/ceiling_hanging_signs.json
+e22e5036cef417bb44742f8acadc490e1fd4dde3 data/minecraft/tags/block/fence_gates.json
+a068084035cf6240524b5af7990e8ed986487135 data/minecraft/tags/block/logs.json
+73cf3e1f6ccaf2c1f145a08ee307ab87bcadaac4 data/minecraft/tags/block/planks.json
+e9c8c32f685c16a16d98a7cf69a325d51465ccea data/minecraft/tags/block/standing_signs.json
+cae167e766f2f0681e07a33c0e33df8b9aef8cbc data/minecraft/tags/block/wall_hanging_signs.json
+e74bfabf51da163452e74f017df2338736183b87 data/minecraft/tags/block/wall_signs.json
+376768112b1936ae40cf4608cf1691a86b8f7def data/minecraft/tags/block/wooden_buttons.json
+14b1dd331a3217b43248bbca372459389bc3a030 data/minecraft/tags/block/wooden_doors.json
+2dc105424a318dec2dd028a8f10a2b070eecffe6 data/minecraft/tags/block/wooden_fences.json
+4a570a54b86c32a26b264e85c2d266a2c02cbe7a data/minecraft/tags/block/wooden_pressure_plates.json
+58fc26663157ae0081c8236ffc633419c5650e3f data/minecraft/tags/block/wooden_slabs.json
+120d033812f6a4c7ab0bec6e8f0b06dbbd40687a data/minecraft/tags/block/wooden_stairs.json
+b7873ffe34e8945cd33b57f8e9041855d3fcd8af data/minecraft/tags/block/wooden_trapdoors.json
+ba0c9b112965c8fe230c4bba87979d5a3045aec0 data/overworld-hyphae/tags/block/all_mushroom_stems.json

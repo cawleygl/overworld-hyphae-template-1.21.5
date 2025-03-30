@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:item/generated",
+  "textures": {
+    "layer0": "overworld-hyphae:item/light_gray_mushroom_hanging_sign"
+  }
+}

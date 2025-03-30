@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:block/fence_inventory",
+  "textures": {
+    "texture": "overworld-hyphae:block/yellow_mushroom_planks"
+  }
+}

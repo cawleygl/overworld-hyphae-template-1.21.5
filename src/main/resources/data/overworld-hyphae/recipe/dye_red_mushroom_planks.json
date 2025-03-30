@@ -1,0 +1,31 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "building",
+  "group": "mushroom_planks",
+  "ingredients": [
+    "minecraft:red_dye",
+    [
+      "overworld-hyphae:mushroom_planks",
+      "overworld-hyphae:white_mushroom_planks",
+      "overworld-hyphae:orange_mushroom_planks",
+      "overworld-hyphae:magenta_mushroom_planks",
+      "overworld-hyphae:light_blue_mushroom_planks",
+      "overworld-hyphae:yellow_mushroom_planks",
+      "overworld-hyphae:lime_mushroom_planks",
+      "overworld-hyphae:pink_mushroom_planks",
+      "overworld-hyphae:gray_mushroom_planks",
+      "overworld-hyphae:light_gray_mushroom_planks",
+      "overworld-hyphae:cyan_mushroom_planks",
+      "overworld-hyphae:purple_mushroom_planks",
+      "overworld-hyphae:blue_mushroom_planks",
+      "overworld-hyphae:brown_mushroom_planks",
+      "overworld-hyphae:green_mushroom_planks",
+      "overworld-hyphae:red_mushroom_planks",
+      "overworld-hyphae:black_mushroom_planks"
+    ]
+  ],
+  "result": {
+    "count": 1,
+    "id": "overworld-hyphae:red_mushroom_planks"
+  }
+}

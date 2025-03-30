@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:item/generated",
+  "textures": {
+    "layer0": "overworld-hyphae:item/purple_mushroom_sign"
+  }
+}

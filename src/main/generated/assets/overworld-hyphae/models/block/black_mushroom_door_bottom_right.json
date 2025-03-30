@@ -1,0 +1,7 @@
+{
+  "parent": "minecraft:block/door_bottom_right",
+  "textures": {
+    "bottom": "overworld-hyphae:block/black_mushroom_door_bottom",
+    "top": "overworld-hyphae:block/black_mushroom_door_top"
+  }
+}

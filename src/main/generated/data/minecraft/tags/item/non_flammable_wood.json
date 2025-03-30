@@ -1,0 +1,16 @@
+{
+  "values": [
+    "#overworld-hyphae:all_mushroom_stems",
+    "#overworld-hyphae:mushroom_planks",
+    "#overworld-hyphae:mushroom_stairs",
+    "#overworld-hyphae:mushroom_slabs",
+    "#overworld-hyphae:mushroom_doors",
+    "#overworld-hyphae:mushroom_trapdoors",
+    "#overworld-hyphae:mushroom_fences",
+    "#overworld-hyphae:mushroom_fence_gates",
+    "#overworld-hyphae:mushroom_buttons",
+    "#overworld-hyphae:mushroom_pressure_plates",
+    "#overworld-hyphae:mushroom_signs",
+    "#overworld-hyphae:mushroom_hanging_signs"
+  ]
+}
