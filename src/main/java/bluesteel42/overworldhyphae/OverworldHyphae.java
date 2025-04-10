@@ -19,7 +19,7 @@ public class OverworldHyphae implements ModInitializer {
 	public static final float itemStrength = 0.2F;
 
 	public static final String plainDyeColor = "";
-	public static final MapColor plainMapColor = MapColor.OAK_TAN;
+	public static final MapColor plainMapColor = MapColor.TERRACOTTA_WHITE;
 	public static final String whiteDyeColor = "white_";
 	public static final MapColor whiteMapColor = MapColor.WHITE;
 	public static final String lightGrayDyeColor = "light_gray_";
@@ -31,7 +31,7 @@ public class OverworldHyphae implements ModInitializer {
 	public static final String brownDyeColor = "brown_";
 	public static final MapColor brownMapColor = MapColor.BROWN;
 	public static final String redDyeColor = "red_";
-	public static final MapColor redMapColor = MapColor.BRIGHT_RED;
+	public static final MapColor redMapColor = MapColor.RED;
 	public static final String orangeDyeColor = "orange_";
 	public static final MapColor orangeMapColor = MapColor.ORANGE;
 	public static final String yellowDyeColor = "yellow_";

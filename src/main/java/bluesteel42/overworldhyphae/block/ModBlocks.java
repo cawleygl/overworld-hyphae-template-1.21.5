@@ -30,8 +30,8 @@ public class ModBlocks {
     public static final Block STRIPPED_MUSHROOM_HYPHAE = registerStrippedHyphae(OverworldHyphae.plainDyeColor, OverworldHyphae.plainMapColor);
     public static final Block STRIPPED_MUSHROOM_STEM = registerStrippedStem(OverworldHyphae.plainDyeColor, OverworldHyphae.plainMapColor);
     public static final Block MUSHROOM_PLANKS = registerPlanks(OverworldHyphae.plainDyeColor, OverworldHyphae.plainMapColor);
-    public static final Block MUSHROOM_STAIRS = registerStairs(OverworldHyphae.plainDyeColor);
-    public static final Block MUSHROOM_SLAB = registerSlab(OverworldHyphae.plainDyeColor);
+    public static final Block MUSHROOM_STAIRS = registerStairs(OverworldHyphae.plainDyeColor, MUSHROOM_PLANKS);
+    public static final Block MUSHROOM_SLAB = registerSlab(OverworldHyphae.plainDyeColor, MUSHROOM_PLANKS);
     public static final Block MUSHROOM_BUTTON = registerButton(OverworldHyphae.plainDyeColor);
     public static final Block MUSHROOM_PRESSURE_PLATE = registerPressurePlate(OverworldHyphae.plainDyeColor, OverworldHyphae.plainMapColor);
     public static final Block MUSHROOM_FENCE = registerFence(OverworldHyphae.plainDyeColor, OverworldHyphae.plainMapColor);
@@ -53,8 +53,8 @@ public class ModBlocks {
     public static final Block STRIPPED_WHITE_MUSHROOM_HYPHAE = registerStrippedHyphae(OverworldHyphae.whiteDyeColor, OverworldHyphae.whiteMapColor);
     public static final Block STRIPPED_WHITE_MUSHROOM_STEM = registerStrippedStem(OverworldHyphae.whiteDyeColor, OverworldHyphae.whiteMapColor);
     public static final Block WHITE_MUSHROOM_PLANKS = registerPlanks(OverworldHyphae.whiteDyeColor, OverworldHyphae.whiteMapColor);
-    public static final Block WHITE_MUSHROOM_STAIRS = registerStairs(OverworldHyphae.whiteDyeColor);
-    public static final Block WHITE_MUSHROOM_SLAB = registerSlab(OverworldHyphae.whiteDyeColor);
+    public static final Block WHITE_MUSHROOM_STAIRS = registerStairs(OverworldHyphae.whiteDyeColor, WHITE_MUSHROOM_PLANKS);
+    public static final Block WHITE_MUSHROOM_SLAB = registerSlab(OverworldHyphae.whiteDyeColor, WHITE_MUSHROOM_PLANKS);
     public static final Block WHITE_MUSHROOM_BUTTON = registerButton(OverworldHyphae.whiteDyeColor);
     public static final Block WHITE_MUSHROOM_PRESSURE_PLATE = registerPressurePlate(OverworldHyphae.whiteDyeColor, OverworldHyphae.whiteMapColor);
     public static final Block WHITE_MUSHROOM_FENCE = registerFence(OverworldHyphae.whiteDyeColor, OverworldHyphae.whiteMapColor);
@@ -76,8 +76,8 @@ public class ModBlocks {
     public static final Block STRIPPED_LIGHT_GRAY_MUSHROOM_HYPHAE = registerStrippedHyphae(OverworldHyphae.lightGrayDyeColor, OverworldHyphae.lightGrayMapColor);
     public static final Block STRIPPED_LIGHT_GRAY_MUSHROOM_STEM = registerStrippedStem(OverworldHyphae.lightGrayDyeColor, OverworldHyphae.lightGrayMapColor);
     public static final Block LIGHT_GRAY_MUSHROOM_PLANKS = registerPlanks(OverworldHyphae.lightGrayDyeColor, OverworldHyphae.lightGrayMapColor);
-    public static final Block LIGHT_GRAY_MUSHROOM_STAIRS = registerStairs(OverworldHyphae.lightGrayDyeColor);
-    public static final Block LIGHT_GRAY_MUSHROOM_SLAB = registerSlab(OverworldHyphae.lightGrayDyeColor);
+    public static final Block LIGHT_GRAY_MUSHROOM_STAIRS = registerStairs(OverworldHyphae.lightGrayDyeColor, LIGHT_GRAY_MUSHROOM_PLANKS);
+    public static final Block LIGHT_GRAY_MUSHROOM_SLAB = registerSlab(OverworldHyphae.lightGrayDyeColor, LIGHT_GRAY_MUSHROOM_PLANKS);
     public static final Block LIGHT_GRAY_MUSHROOM_BUTTON = registerButton(OverworldHyphae.lightGrayDyeColor);
     public static final Block LIGHT_GRAY_MUSHROOM_PRESSURE_PLATE = registerPressurePlate(OverworldHyphae.lightGrayDyeColor, OverworldHyphae.lightGrayMapColor);
     public static final Block LIGHT_GRAY_MUSHROOM_FENCE = registerFence(OverworldHyphae.lightGrayDyeColor, OverworldHyphae.lightGrayMapColor);
@@ -99,8 +99,8 @@ public class ModBlocks {
     public static final Block STRIPPED_GRAY_MUSHROOM_HYPHAE = registerStrippedHyphae(OverworldHyphae.grayDyeColor, OverworldHyphae.grayMapColor);
     public static final Block STRIPPED_GRAY_MUSHROOM_STEM = registerStrippedStem(OverworldHyphae.grayDyeColor, OverworldHyphae.grayMapColor);
     public static final Block GRAY_MUSHROOM_PLANKS = registerPlanks(OverworldHyphae.grayDyeColor, OverworldHyphae.grayMapColor);
-    public static final Block GRAY_MUSHROOM_STAIRS = registerStairs(OverworldHyphae.grayDyeColor);
-    public static final Block GRAY_MUSHROOM_SLAB = registerSlab(OverworldHyphae.grayDyeColor);
+    public static final Block GRAY_MUSHROOM_STAIRS = registerStairs(OverworldHyphae.grayDyeColor, GRAY_MUSHROOM_PLANKS);
+    public static final Block GRAY_MUSHROOM_SLAB = registerSlab(OverworldHyphae.grayDyeColor, GRAY_MUSHROOM_PLANKS);
     public static final Block GRAY_MUSHROOM_BUTTON = registerButton(OverworldHyphae.grayDyeColor);
     public static final Block GRAY_MUSHROOM_PRESSURE_PLATE = registerPressurePlate(OverworldHyphae.grayDyeColor, OverworldHyphae.grayMapColor);
     public static final Block GRAY_MUSHROOM_FENCE = registerFence(OverworldHyphae.grayDyeColor, OverworldHyphae.grayMapColor);
@@ -122,8 +122,8 @@ public class ModBlocks {
     public static final Block STRIPPED_BLACK_MUSHROOM_HYPHAE = registerStrippedHyphae(OverworldHyphae.blackDyeColor, OverworldHyphae.blackMapColor);
     public static final Block STRIPPED_BLACK_MUSHROOM_STEM = registerStrippedStem(OverworldHyphae.blackDyeColor, OverworldHyphae.blackMapColor);
     public static final Block BLACK_MUSHROOM_PLANKS = registerPlanks(OverworldHyphae.blackDyeColor, OverworldHyphae.blackMapColor);
-    public static final Block BLACK_MUSHROOM_STAIRS = registerStairs(OverworldHyphae.blackDyeColor);
-    public static final Block BLACK_MUSHROOM_SLAB = registerSlab(OverworldHyphae.blackDyeColor);
+    public static final Block BLACK_MUSHROOM_STAIRS = registerStairs(OverworldHyphae.blackDyeColor, BLACK_MUSHROOM_PLANKS);
+    public static final Block BLACK_MUSHROOM_SLAB = registerSlab(OverworldHyphae.blackDyeColor, BLACK_MUSHROOM_PLANKS);
     public static final Block BLACK_MUSHROOM_BUTTON = registerButton(OverworldHyphae.blackDyeColor);
     public static final Block BLACK_MUSHROOM_PRESSURE_PLATE = registerPressurePlate(OverworldHyphae.blackDyeColor, OverworldHyphae.blackMapColor);
     public static final Block BLACK_MUSHROOM_FENCE = registerFence(OverworldHyphae.blackDyeColor, OverworldHyphae.blackMapColor);
@@ -145,8 +145,8 @@ public class ModBlocks {
     public static final Block STRIPPED_BROWN_MUSHROOM_HYPHAE = registerStrippedHyphae(OverworldHyphae.brownDyeColor, OverworldHyphae.brownMapColor);
     public static final Block STRIPPED_BROWN_MUSHROOM_STEM = registerStrippedStem(OverworldHyphae.brownDyeColor, OverworldHyphae.brownMapColor);
     public static final Block BROWN_MUSHROOM_PLANKS = registerPlanks(OverworldHyphae.brownDyeColor, OverworldHyphae.brownMapColor);
-    public static final Block BROWN_MUSHROOM_STAIRS = registerStairs(OverworldHyphae.brownDyeColor);
-    public static final Block BROWN_MUSHROOM_SLAB = registerSlab(OverworldHyphae.brownDyeColor);
+    public static final Block BROWN_MUSHROOM_STAIRS = registerStairs(OverworldHyphae.brownDyeColor, BROWN_MUSHROOM_PLANKS);
+    public static final Block BROWN_MUSHROOM_SLAB = registerSlab(OverworldHyphae.brownDyeColor, BROWN_MUSHROOM_PLANKS);
     public static final Block BROWN_MUSHROOM_BUTTON = registerButton(OverworldHyphae.brownDyeColor);
     public static final Block BROWN_MUSHROOM_PRESSURE_PLATE = registerPressurePlate(OverworldHyphae.brownDyeColor, OverworldHyphae.brownMapColor);
     public static final Block BROWN_MUSHROOM_FENCE = registerFence(OverworldHyphae.brownDyeColor, OverworldHyphae.brownMapColor);
@@ -168,8 +168,8 @@ public class ModBlocks {
     public static final Block STRIPPED_RED_MUSHROOM_HYPHAE = registerStrippedHyphae(OverworldHyphae.redDyeColor, OverworldHyphae.redMapColor);
     public static final Block STRIPPED_RED_MUSHROOM_STEM = registerStrippedStem(OverworldHyphae.redDyeColor, OverworldHyphae.redMapColor);
     public static final Block RED_MUSHROOM_PLANKS = registerPlanks(OverworldHyphae.redDyeColor, OverworldHyphae.redMapColor);
-    public static final Block RED_MUSHROOM_STAIRS = registerStairs(OverworldHyphae.redDyeColor);
-    public static final Block RED_MUSHROOM_SLAB = registerSlab(OverworldHyphae.redDyeColor);
+    public static final Block RED_MUSHROOM_STAIRS = registerStairs(OverworldHyphae.redDyeColor, RED_MUSHROOM_PLANKS);
+    public static final Block RED_MUSHROOM_SLAB = registerSlab(OverworldHyphae.redDyeColor, RED_MUSHROOM_PLANKS);
     public static final Block RED_MUSHROOM_BUTTON = registerButton(OverworldHyphae.redDyeColor);
     public static final Block RED_MUSHROOM_PRESSURE_PLATE = registerPressurePlate(OverworldHyphae.redDyeColor, OverworldHyphae.redMapColor);
     public static final Block RED_MUSHROOM_FENCE = registerFence(OverworldHyphae.redDyeColor, OverworldHyphae.redMapColor);
@@ -191,8 +191,8 @@ public class ModBlocks {
     public static final Block STRIPPED_ORANGE_MUSHROOM_HYPHAE = registerStrippedHyphae(OverworldHyphae.orangeDyeColor, OverworldHyphae.orangeMapColor);
     public static final Block STRIPPED_ORANGE_MUSHROOM_STEM = registerStrippedStem(OverworldHyphae.orangeDyeColor, OverworldHyphae.orangeMapColor);
     public static final Block ORANGE_MUSHROOM_PLANKS = registerPlanks(OverworldHyphae.orangeDyeColor, OverworldHyphae.orangeMapColor);
-    public static final Block ORANGE_MUSHROOM_STAIRS = registerStairs(OverworldHyphae.orangeDyeColor);
-    public static final Block ORANGE_MUSHROOM_SLAB = registerSlab(OverworldHyphae.orangeDyeColor);
+    public static final Block ORANGE_MUSHROOM_STAIRS = registerStairs(OverworldHyphae.orangeDyeColor, ORANGE_MUSHROOM_PLANKS);
+    public static final Block ORANGE_MUSHROOM_SLAB = registerSlab(OverworldHyphae.orangeDyeColor, ORANGE_MUSHROOM_PLANKS);
     public static final Block ORANGE_MUSHROOM_BUTTON = registerButton(OverworldHyphae.orangeDyeColor);
     public static final Block ORANGE_MUSHROOM_PRESSURE_PLATE = registerPressurePlate(OverworldHyphae.orangeDyeColor, OverworldHyphae.orangeMapColor);
     public static final Block ORANGE_MUSHROOM_FENCE = registerFence(OverworldHyphae.orangeDyeColor, OverworldHyphae.orangeMapColor);
@@ -214,8 +214,8 @@ public class ModBlocks {
     public static final Block STRIPPED_YELLOW_MUSHROOM_HYPHAE = registerStrippedHyphae(OverworldHyphae.yellowDyeColor, OverworldHyphae.yellowMapColor);
     public static final Block STRIPPED_YELLOW_MUSHROOM_STEM = registerStrippedStem(OverworldHyphae.yellowDyeColor, OverworldHyphae.yellowMapColor);
     public static final Block YELLOW_MUSHROOM_PLANKS = registerPlanks(OverworldHyphae.yellowDyeColor, OverworldHyphae.yellowMapColor);
-    public static final Block YELLOW_MUSHROOM_STAIRS = registerStairs(OverworldHyphae.yellowDyeColor);
-    public static final Block YELLOW_MUSHROOM_SLAB = registerSlab(OverworldHyphae.yellowDyeColor);
+    public static final Block YELLOW_MUSHROOM_STAIRS = registerStairs(OverworldHyphae.yellowDyeColor, YELLOW_MUSHROOM_PLANKS);
+    public static final Block YELLOW_MUSHROOM_SLAB = registerSlab(OverworldHyphae.yellowDyeColor, YELLOW_MUSHROOM_PLANKS);
     public static final Block YELLOW_MUSHROOM_BUTTON = registerButton(OverworldHyphae.yellowDyeColor);
     public static final Block YELLOW_MUSHROOM_PRESSURE_PLATE = registerPressurePlate(OverworldHyphae.yellowDyeColor, OverworldHyphae.yellowMapColor);
     public static final Block YELLOW_MUSHROOM_FENCE = registerFence(OverworldHyphae.yellowDyeColor, OverworldHyphae.yellowMapColor);
@@ -237,8 +237,8 @@ public class ModBlocks {
     public static final Block STRIPPED_LIME_MUSHROOM_HYPHAE = registerStrippedHyphae(OverworldHyphae.limeDyeColor, OverworldHyphae.limeMapColor);
     public static final Block STRIPPED_LIME_MUSHROOM_STEM = registerStrippedStem(OverworldHyphae.limeDyeColor, OverworldHyphae.limeMapColor);
     public static final Block LIME_MUSHROOM_PLANKS = registerPlanks(OverworldHyphae.limeDyeColor, OverworldHyphae.limeMapColor);
-    public static final Block LIME_MUSHROOM_STAIRS = registerStairs(OverworldHyphae.limeDyeColor);
-    public static final Block LIME_MUSHROOM_SLAB = registerSlab(OverworldHyphae.limeDyeColor);
+    public static final Block LIME_MUSHROOM_STAIRS = registerStairs(OverworldHyphae.limeDyeColor, LIME_MUSHROOM_PLANKS);
+    public static final Block LIME_MUSHROOM_SLAB = registerSlab(OverworldHyphae.limeDyeColor, LIME_MUSHROOM_PLANKS);
     public static final Block LIME_MUSHROOM_BUTTON = registerButton(OverworldHyphae.limeDyeColor);
     public static final Block LIME_MUSHROOM_PRESSURE_PLATE = registerPressurePlate(OverworldHyphae.limeDyeColor, OverworldHyphae.limeMapColor);
     public static final Block LIME_MUSHROOM_FENCE = registerFence(OverworldHyphae.limeDyeColor, OverworldHyphae.limeMapColor);
@@ -260,8 +260,8 @@ public class ModBlocks {
     public static final Block STRIPPED_GREEN_MUSHROOM_HYPHAE = registerStrippedHyphae(OverworldHyphae.greenDyeColor, OverworldHyphae.greenMapColor);
     public static final Block STRIPPED_GREEN_MUSHROOM_STEM = registerStrippedStem(OverworldHyphae.greenDyeColor, OverworldHyphae.greenMapColor);
     public static final Block GREEN_MUSHROOM_PLANKS = registerPlanks(OverworldHyphae.greenDyeColor, OverworldHyphae.greenMapColor);
-    public static final Block GREEN_MUSHROOM_STAIRS = registerStairs(OverworldHyphae.greenDyeColor);
-    public static final Block GREEN_MUSHROOM_SLAB = registerSlab(OverworldHyphae.greenDyeColor);
+    public static final Block GREEN_MUSHROOM_STAIRS = registerStairs(OverworldHyphae.greenDyeColor, GREEN_MUSHROOM_PLANKS);
+    public static final Block GREEN_MUSHROOM_SLAB = registerSlab(OverworldHyphae.greenDyeColor, GREEN_MUSHROOM_PLANKS);
     public static final Block GREEN_MUSHROOM_BUTTON = registerButton(OverworldHyphae.greenDyeColor);
     public static final Block GREEN_MUSHROOM_PRESSURE_PLATE = registerPressurePlate(OverworldHyphae.greenDyeColor, OverworldHyphae.greenMapColor);
     public static final Block GREEN_MUSHROOM_FENCE = registerFence(OverworldHyphae.greenDyeColor, OverworldHyphae.greenMapColor);
@@ -283,8 +283,8 @@ public class ModBlocks {
     public static final Block STRIPPED_CYAN_MUSHROOM_HYPHAE = registerStrippedHyphae(OverworldHyphae.cyanDyeColor, OverworldHyphae.cyanMapColor);
     public static final Block STRIPPED_CYAN_MUSHROOM_STEM = registerStrippedStem(OverworldHyphae.cyanDyeColor, OverworldHyphae.cyanMapColor);
     public static final Block CYAN_MUSHROOM_PLANKS = registerPlanks(OverworldHyphae.cyanDyeColor, OverworldHyphae.cyanMapColor);
-    public static final Block CYAN_MUSHROOM_STAIRS = registerStairs(OverworldHyphae.cyanDyeColor);
-    public static final Block CYAN_MUSHROOM_SLAB = registerSlab(OverworldHyphae.cyanDyeColor);
+    public static final Block CYAN_MUSHROOM_STAIRS = registerStairs(OverworldHyphae.cyanDyeColor, CYAN_MUSHROOM_PLANKS);
+    public static final Block CYAN_MUSHROOM_SLAB = registerSlab(OverworldHyphae.cyanDyeColor, CYAN_MUSHROOM_PLANKS);
     public static final Block CYAN_MUSHROOM_BUTTON = registerButton(OverworldHyphae.cyanDyeColor);
     public static final Block CYAN_MUSHROOM_PRESSURE_PLATE = registerPressurePlate(OverworldHyphae.cyanDyeColor, OverworldHyphae.cyanMapColor);
     public static final Block CYAN_MUSHROOM_FENCE = registerFence(OverworldHyphae.cyanDyeColor, OverworldHyphae.cyanMapColor);
@@ -306,8 +306,8 @@ public class ModBlocks {
     public static final Block STRIPPED_LIGHT_BLUE_MUSHROOM_HYPHAE = registerStrippedHyphae(OverworldHyphae.lightBlueDyeColor, OverworldHyphae.lightBlueMapColor);
     public static final Block STRIPPED_LIGHT_BLUE_MUSHROOM_STEM = registerStrippedStem(OverworldHyphae.lightBlueDyeColor, OverworldHyphae.lightBlueMapColor);
     public static final Block LIGHT_BLUE_MUSHROOM_PLANKS = registerPlanks(OverworldHyphae.lightBlueDyeColor, OverworldHyphae.lightBlueMapColor);
-    public static final Block LIGHT_BLUE_MUSHROOM_STAIRS = registerStairs(OverworldHyphae.lightBlueDyeColor);
-    public static final Block LIGHT_BLUE_MUSHROOM_SLAB = registerSlab(OverworldHyphae.lightBlueDyeColor);
+    public static final Block LIGHT_BLUE_MUSHROOM_STAIRS = registerStairs(OverworldHyphae.lightBlueDyeColor, LIGHT_BLUE_MUSHROOM_PLANKS);
+    public static final Block LIGHT_BLUE_MUSHROOM_SLAB = registerSlab(OverworldHyphae.lightBlueDyeColor, LIGHT_BLUE_MUSHROOM_PLANKS);
     public static final Block LIGHT_BLUE_MUSHROOM_BUTTON = registerButton(OverworldHyphae.lightBlueDyeColor);
     public static final Block LIGHT_BLUE_MUSHROOM_PRESSURE_PLATE = registerPressurePlate(OverworldHyphae.lightBlueDyeColor, OverworldHyphae.lightBlueMapColor);
     public static final Block LIGHT_BLUE_MUSHROOM_FENCE = registerFence(OverworldHyphae.lightBlueDyeColor, OverworldHyphae.lightBlueMapColor);
@@ -329,8 +329,8 @@ public class ModBlocks {
     public static final Block STRIPPED_BLUE_MUSHROOM_HYPHAE = registerStrippedHyphae(OverworldHyphae.blueDyeColor, OverworldHyphae.blueMapColor);
     public static final Block STRIPPED_BLUE_MUSHROOM_STEM = registerStrippedStem(OverworldHyphae.blueDyeColor, OverworldHyphae.blueMapColor);
     public static final Block BLUE_MUSHROOM_PLANKS = registerPlanks(OverworldHyphae.blueDyeColor, OverworldHyphae.blueMapColor);
-    public static final Block BLUE_MUSHROOM_STAIRS = registerStairs(OverworldHyphae.blueDyeColor);
-    public static final Block BLUE_MUSHROOM_SLAB = registerSlab(OverworldHyphae.blueDyeColor);
+    public static final Block BLUE_MUSHROOM_STAIRS = registerStairs(OverworldHyphae.blueDyeColor, BLUE_MUSHROOM_PLANKS);
+    public static final Block BLUE_MUSHROOM_SLAB = registerSlab(OverworldHyphae.blueDyeColor, BLUE_MUSHROOM_PLANKS);
     public static final Block BLUE_MUSHROOM_BUTTON = registerButton(OverworldHyphae.blueDyeColor);
     public static final Block BLUE_MUSHROOM_PRESSURE_PLATE = registerPressurePlate(OverworldHyphae.blueDyeColor, OverworldHyphae.blueMapColor);
     public static final Block BLUE_MUSHROOM_FENCE = registerFence(OverworldHyphae.blueDyeColor, OverworldHyphae.blueMapColor);
@@ -352,8 +352,8 @@ public class ModBlocks {
     public static final Block STRIPPED_PURPLE_MUSHROOM_HYPHAE = registerStrippedHyphae(OverworldHyphae.purpleDyeColor, OverworldHyphae.purpleMapColor);
     public static final Block STRIPPED_PURPLE_MUSHROOM_STEM = registerStrippedStem(OverworldHyphae.purpleDyeColor, OverworldHyphae.purpleMapColor);
     public static final Block PURPLE_MUSHROOM_PLANKS = registerPlanks(OverworldHyphae.purpleDyeColor, OverworldHyphae.purpleMapColor);
-    public static final Block PURPLE_MUSHROOM_STAIRS = registerStairs(OverworldHyphae.purpleDyeColor);
-    public static final Block PURPLE_MUSHROOM_SLAB = registerSlab(OverworldHyphae.purpleDyeColor);
+    public static final Block PURPLE_MUSHROOM_STAIRS = registerStairs(OverworldHyphae.purpleDyeColor, PURPLE_MUSHROOM_PLANKS);
+    public static final Block PURPLE_MUSHROOM_SLAB = registerSlab(OverworldHyphae.purpleDyeColor, PURPLE_MUSHROOM_PLANKS);
     public static final Block PURPLE_MUSHROOM_BUTTON = registerButton(OverworldHyphae.purpleDyeColor);
     public static final Block PURPLE_MUSHROOM_PRESSURE_PLATE = registerPressurePlate(OverworldHyphae.purpleDyeColor, OverworldHyphae.purpleMapColor);
     public static final Block PURPLE_MUSHROOM_FENCE = registerFence(OverworldHyphae.purpleDyeColor, OverworldHyphae.purpleMapColor);
@@ -375,8 +375,8 @@ public class ModBlocks {
     public static final Block STRIPPED_MAGENTA_MUSHROOM_HYPHAE = registerStrippedHyphae(OverworldHyphae.magentaDyeColor, OverworldHyphae.magentaMapColor);
     public static final Block STRIPPED_MAGENTA_MUSHROOM_STEM = registerStrippedStem(OverworldHyphae.magentaDyeColor, OverworldHyphae.magentaMapColor);
     public static final Block MAGENTA_MUSHROOM_PLANKS = registerPlanks(OverworldHyphae.magentaDyeColor, OverworldHyphae.magentaMapColor);
-    public static final Block MAGENTA_MUSHROOM_STAIRS = registerStairs(OverworldHyphae.magentaDyeColor);
-    public static final Block MAGENTA_MUSHROOM_SLAB = registerSlab(OverworldHyphae.magentaDyeColor);
+    public static final Block MAGENTA_MUSHROOM_STAIRS = registerStairs(OverworldHyphae.magentaDyeColor, MAGENTA_MUSHROOM_PLANKS);
+    public static final Block MAGENTA_MUSHROOM_SLAB = registerSlab(OverworldHyphae.magentaDyeColor, MAGENTA_MUSHROOM_PLANKS);
     public static final Block MAGENTA_MUSHROOM_BUTTON = registerButton(OverworldHyphae.magentaDyeColor);
     public static final Block MAGENTA_MUSHROOM_PRESSURE_PLATE = registerPressurePlate(OverworldHyphae.magentaDyeColor, OverworldHyphae.magentaMapColor);
     public static final Block MAGENTA_MUSHROOM_FENCE = registerFence(OverworldHyphae.magentaDyeColor, OverworldHyphae.magentaMapColor);
@@ -398,8 +398,8 @@ public class ModBlocks {
     public static final Block STRIPPED_PINK_MUSHROOM_HYPHAE = registerStrippedHyphae(OverworldHyphae.pinkDyeColor, OverworldHyphae.pinkMapColor);
     public static final Block STRIPPED_PINK_MUSHROOM_STEM = registerStrippedStem(OverworldHyphae.pinkDyeColor, OverworldHyphae.pinkMapColor);
     public static final Block PINK_MUSHROOM_PLANKS = registerPlanks(OverworldHyphae.pinkDyeColor, OverworldHyphae.pinkMapColor);
-    public static final Block PINK_MUSHROOM_STAIRS = registerStairs(OverworldHyphae.pinkDyeColor);
-    public static final Block PINK_MUSHROOM_SLAB = registerSlab(OverworldHyphae.pinkDyeColor);
+    public static final Block PINK_MUSHROOM_STAIRS = registerStairs(OverworldHyphae.pinkDyeColor, PINK_MUSHROOM_PLANKS);
+    public static final Block PINK_MUSHROOM_SLAB = registerSlab(OverworldHyphae.pinkDyeColor, PINK_MUSHROOM_PLANKS);
     public static final Block PINK_MUSHROOM_BUTTON = registerButton(OverworldHyphae.pinkDyeColor);
     public static final Block PINK_MUSHROOM_PRESSURE_PLATE = registerPressurePlate(OverworldHyphae.pinkDyeColor, OverworldHyphae.pinkMapColor);
     public static final Block PINK_MUSHROOM_FENCE = registerFence(OverworldHyphae.pinkDyeColor, OverworldHyphae.pinkMapColor);
@@ -511,12 +511,12 @@ public class ModBlocks {
 
     }
 
-    private static Block registerStairs(String dyeColor) {
+    private static Block registerStairs(String dyeColor, Block plankBlock) {
         String path = dyeColor + "mushroom_stairs";
 
         final Block block = Blocks.register(generateRegistryKey(generateID(path)),
-                settings -> new StairsBlock(MUSHROOM_PLANKS.getDefaultState(), settings),
-                AbstractBlock.Settings.copy(MUSHROOM_PLANKS));
+                settings -> new StairsBlock(plankBlock.getDefaultState(), settings),
+                AbstractBlock.Settings.copy(plankBlock));
 
         Items.register(block);
 
@@ -524,12 +524,12 @@ public class ModBlocks {
 
     }
 
-    private static Block registerSlab(String dyeColor) {
+    private static Block registerSlab(String dyeColor, Block plankBlock) {
         String path = dyeColor + "mushroom_slab";
 
         final Block block = Blocks.register(generateRegistryKey(generateID(path)),
                 SlabBlock::new,
-                AbstractBlock.Settings.copy(MUSHROOM_PLANKS));
+                AbstractBlock.Settings.copy(plankBlock));
         Items.register(block);
 
         return block;
